@@ -1,37 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-    
-  }
-   header {
-    background: black;
-    width: 100%;
-    position: fixed;
-    z-index: 10000;
-  }
-  nav {
-    float: left;
-    clear: both
-    }
-  nav ul {
-    list-style: none;
-    overflow: hidden;
-  }
-  nav ul li {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 15px;
-    float: left;
-  }
-  nav ul li a {
-    text-decoration: none;
-    display: block;
-    padding: 20px;
-    color: darkorange;
-  }
-  nav ul li:hover {
-    background-color: #6e6e6e;
-  } */
-  .Barra {
+.Barra {
     width: 80%;
     margin: auto;
     overflow: hidden;
@@ -43,25 +10,109 @@
       background: url(./photo-1608922804825-b546ae16006b.avif) no-repeat;
       background-size: cover;
   }
+  
   .caja{
-      width: 500px;
+      width: 570px;
       background: rgba(0, 0, 0, .4);
       margin: 0 auto;
-      margin-top: 50px;
+      margin-top: 40px;
       padding: 20px;
       color: aliceblue;
       text-align: center;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    }
+  section h1,h2 {
+    font-family: 'Ballet', cursive;
+    font-family: 'Ms Madi', cursive
+    
   }
-  section h1,h2,p {
-    font-family: 'Pattaya', sans-serif;
-    font-family: 'Quicksand', sans-serif;
+  h2{
+      font-size: 45px;
+      margin-bottom: auto;
+      margin-top: auto;
+  }
+  p{
+     font-size: 35px;
+     font-weight: 300;
+     font-family: 'Ballet', cursive;
+     font-family: 'Indie Flower', cursive;
+     font-family: 'Ms Madi', cursive;
+     font-family: 'My Soul', cursive;
+     font-family: 'Square Peg', cursive;
   }
   .cajaimg{
       border-radius: 50%;
 }
   .caja h1{
      font-size: 60px;
-     margin-top: 10px;
+     margin-top: 5px;
      margin-bottom: 5px;
 
 }
+.nav ul {
+    overflow: hidden;
+    text-align: center;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 5px;
+    
+}
+.nav ul li:hover {
+     background: rgba(0, 0, 0, .4);
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5)
+}
+.nav {
+    
+    width: 200px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav li {
+    list-style: none;
+    
+}
+.nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav ul li {
+    font-size: 60px;
+    font-family: 'Ballet', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'My Soul', cursive;
+    font-family: 'Square Peg', cursive;
+}
+p, a {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: aliceblue;
+}
+.buttons {
+    margin-left: 578px;
+    
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: rgba(0, 0, 0, .4);
+    color: orange;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    margin: 10px;
+  }
+
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+  
+  
