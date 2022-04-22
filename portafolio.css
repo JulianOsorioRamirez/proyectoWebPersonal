@@ -1,9 +1,10 @@
-
+html{
+     
+   height:150vh;
+}
 body {
-    background: url(./photo-1608922804825-b546ae16006b.avif) no-repeat;
-    height: 100px;
+    background: url(./photo-1608922804825-b546ae16006b.avif) no-repeat; 
     background-size: cover;
-    
 }
 .nav {
     margin-right: 100px;
@@ -18,10 +19,14 @@ body {
 h1 {
     margin-top: 100px;
     margin-left: 250px;
+    width: 300px;
+    text-align: center;
     font-size: 50px;
     color: aliceblue;
     font-family: 'Ballet', cursive;
     font-family: 'Ms Madi', cursive;
+    background: rgba(0, 0, 0, .4);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5)
 }
 h2 {
     text-align: center;
@@ -44,8 +49,6 @@ h2 {
     display: inline;
     margin-left: 100px;
 }
-
-
 .caja {
     display: inline;
     position: relative;
@@ -67,34 +70,13 @@ h2 {
 .caja p a {
     color: orange;
 }
-.buttons a {
-    text-decoration: none;
-    font-size: 28px;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    background: rgba(0, 0, 0, .4);
-    color: orange;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-    margin: 10px;
-  }
-
-.buttons a:hover {
-    transform: scale(1.2);
-}
-
 .container{
       display: grid;
       grid-template-columns: auto auto;
       width: 200px;
-      margin-top: 10px;
-      margin-left: 70px;
+      margin-top: px;
+      margin-left: 60px;
  }
-div.buttons {
-    
-}
 .container div img {
      width: 300px;
      margin:1em 1em .5em 1em;  
