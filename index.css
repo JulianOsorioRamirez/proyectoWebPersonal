@@ -24,7 +24,6 @@
   section h1,h2 {
     font-family: 'Ballet', cursive;
     font-family: 'Ms Madi', cursive
-    
   }
   h2{
       font-size: 45px;
@@ -64,7 +63,6 @@
      box-shadow: 2px 2px 5px rgba(0, 0, 0, .5)
 }
 .nav {
-    
     width: 200px;
     margin-top: auto;
     margin-left: auto;
