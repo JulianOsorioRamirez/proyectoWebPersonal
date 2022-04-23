@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    background: url(./photo-1608922804825-b546ae16006b.avif) no-repeat; 
+    background-size: cover;
+}
+.nav li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 70px;
+    font-family: 'Ballet', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'My Soul', cursive;
+    font-family: 'Square Peg', cursive;
+}
+.nav li {
+    display: inline;
+    margin-left: 100px;
+}
+.nav {
+    margin-right: 100px;
+}
+.nav ul {
+    text-align: center;
+    list-style: none;
+}
+.nav ul li:hover {
+    background: rgba(0, 0, 0, .4);
+}
+.formulario {
+    background: rgba(0, 0, 0, .4);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    width: 700px;
+    height: 520px;
+    margin-left: 430px;
+    margin-top: 50px;
+}
+.formulario h4 {
+     font-size: 70px;
+     color: aliceblue;
+     font-family: 'Ballet', cursive;
+     font-family: 'Ms Madi', cursive;
+     text-align: center;
+}
+.controls{
+    background: rgba(0, 0, 0, .4);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Ballet', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'My Soul', cursive;
+    font-family: 'Square Peg', cursive;
+    display: block;
+    margin-bottom: 8px;
+    padding: 10px;
+    width: 90%;
+    margin-left: 35px;
+    border-radius: 4px;
+    border: 1px solid orange;
+}
+.formulario p {
+    font-family: 'Ballet', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'My Soul', cursive;
+    font-family: 'Square Peg', cursive;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+.formulario a {
+    color: orange;
+}.botons {
+    color: orange;
+    text-decoration: none;
+    margin-left: 314px;
+    background: rgba(0, 0, 0, .4);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    font-size: 25px;
+    font-family: 'Ballet', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'My Soul', cursive;
+    font-family: 'Square Peg', cursive;
+}
+.buttons {
+    margin-left: 620px;
+}
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: rgba(0, 0, 0, .4);
+    color: orange;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    margin: 10px;
+  }
+
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+

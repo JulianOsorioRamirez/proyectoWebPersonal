@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ballet&family=Ms+Madi&family=My+Soul&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ballet&family=Indie+Flower&family=Ms+Madi&family=My+Soul&family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ballet&family=Indie+Flower&family=Ms+Madi&family=My+Soul&family=Space+Mono:ital@1&family=Square+Peg&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <title>Index</title>
+    <link rel="stylesheet" href="./contacto.css">
+    <title>Contacto</title>
 </head>
 <body>
     <div class="nav">
@@ -25,21 +27,15 @@
           </ul>
     </div>
 
-    <section class="caja">
-        <img src="./unnamed.jpg" alt="Julian Osorio" class="cajaimg">
-        <h1>Julian Osorio</h1>
-        <h2>Estudiante Full-Stack</h2>
-        <p>Me llamo Julian Osorio y soy un estudiante de la
-            academia The Bridge, En esta pagina encontraras 
-            informacion sobre mi, sobre mis gustos, y ambiciones</p>
-        </p>
-   </section>
-   
-   <footer>
-       <p>
-          <a class="foot" href="#">Politica de privacidad</a>
-          <a class="foot" href="#">Politica de Cookies</a>
-      </p>
+    <section class="formulario">
+        <h4>Contactame:</h4>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+        <input class="controls" type="number" name="numero" id="numero" placeholder="Ingrese un numero de contacto">
+        <!-- <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p> -->
+        <input class="botons" type="submit" value="Contactar">
+      </section>
 
       <section class="buttons">
         <a href="#" class="fa fa-facebook"></a>
@@ -47,6 +43,5 @@
         <a href="#" class="fa fa-instagram"></a>
         <a href="#" class="fa fa-linkedin"></a>
       </section>
-   </footer>
 </body>
 </html>
